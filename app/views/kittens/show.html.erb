@@ -1,1 +1,2 @@
 <h1>Meet <%= @kitten.name %></h1>
+<%= link_to 'Delete', kitten_path(@kitten), data: { turbo_method: :delete } %>
